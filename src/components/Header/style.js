@@ -17,6 +17,7 @@ export const ContainerNavigationLinks = styled.section`
   display: flex;
   align-items: center;
   gap: 3.5rem;
+  height: 7.18rem;
   padding: 0 6.25rem;
 `;
 
