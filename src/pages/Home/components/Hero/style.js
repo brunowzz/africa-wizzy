@@ -1,6 +1,6 @@
-import HeroBackground from "../../../../assets/hero-background.svg";
+import HeroBackground from '../../../../assets/hero-background.svg';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ContainerHero = styled.section`
   display: flex;

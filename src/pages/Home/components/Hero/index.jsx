@@ -1,6 +1,6 @@
-import Title from "../../../../components/Title";
+import Title from '../../../../components/Title';
 
-import * as S from "./style";
+import * as S from './style';
 
 export default function Hero() {
   return (
