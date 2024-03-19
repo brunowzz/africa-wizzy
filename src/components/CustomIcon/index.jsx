@@ -1,15 +1,15 @@
-import { IconContext } from "react-icons";
+import { IconContext } from 'react-icons';
 
-import { IoMdCall, IoMdMail } from "react-icons/io";
+import { IoMdCall, IoMdMail } from 'react-icons/io';
 import {
   FaFacebookF,
   FaXTwitter,
   FaInstagram,
-  FaCalendarCheck,
-} from "react-icons/fa6";
-import { FaLinkedinIn, FaCarAlt, FaRegCheckCircle } from "react-icons/fa";
-import { AiFillLike } from "react-icons/ai";
-import { MdArrowRight } from "react-icons/md";
+  FaCalendarCheck
+} from 'react-icons/fa6';
+import { FaLinkedinIn, FaCarAlt, FaRegCheckCircle } from 'react-icons/fa';
+import { AiFillLike } from 'react-icons/ai';
+import { MdArrowRight } from 'react-icons/md';
 
 export default function CustomIcon({ icon, color, size }) {
   const iconMapping = {
@@ -23,7 +23,7 @@ export default function CustomIcon({ icon, color, size }) {
     check: FaRegCheckCircle,
     calendar: FaCalendarCheck,
     like: AiFillLike,
-    arrowRight: MdArrowRight,
+    arrowRight: MdArrowRight
   };
 
   const IconComponent = iconMapping[icon];

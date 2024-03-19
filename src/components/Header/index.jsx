@@ -1,9 +1,9 @@
-import { Link, useLocation } from "react-router-dom";
-import Logo from "../../assets/logo.svg";
+import { Link, useLocation } from 'react-router-dom';
+import Logo from '../../assets/logo.svg';
 
-import InfoContact from "../InfoContact";
+import InfoContact from '../InfoContact';
 
-import * as S from "./style";
+import * as S from './style';
 
 export default function Header() {
   const { pathname } = useLocation();
@@ -22,26 +22,26 @@ export default function Header() {
         </figure>
 
         <S.NavigationLinks>
-          <Link className={pathname === "/" ? "isHere" : ""} to="/">
+          <Link className={pathname === '/' ? 'isHere' : ''} to="/">
             Home
           </Link>
-          <Link className={pathname === "/about" ? "isHere" : ""} to="/about">
+          <Link className={pathname === '/about' ? 'isHere' : ''} to="/about">
             About
           </Link>
           <Link
-            className={pathname === "/tour-package" ? "isHere" : ""}
+            className={pathname === '/tour-package' ? 'isHere' : ''}
             to="/tour-package"
           >
             Tour package
           </Link>
           <Link
-            className={pathname === "/gallery" ? "isHere" : ""}
+            className={pathname === '/gallery' ? 'isHere' : ''}
             to="/gallery"
           >
             Gallery
           </Link>
           <Link
-            className={pathname === "/contact-us" ? "isHere" : ""}
+            className={pathname === '/contact-us' ? 'isHere' : ''}
             to="/contact-us"
           >
             Contact us

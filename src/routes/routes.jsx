@@ -1,15 +1,15 @@
 import {
   Route,
   createBrowserRouter,
-  createRoutesFromElements,
-} from "react-router-dom";
+  createRoutesFromElements
+} from 'react-router-dom';
 
-import DefaultLayout from "../layout/DefaultLayout";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import TourPackage from "../pages/TourPackage";
-import Gallery from "../pages/Gallery";
-import ContactUs from "../pages/ContactUs";
+import DefaultLayout from '../layout/DefaultLayout';
+import Home from '../pages/Home';
+import About from '../pages/About';
+import TourPackage from '../pages/TourPackage';
+import Gallery from '../pages/Gallery';
+import ContactUs from '../pages/ContactUs';
 
 export const Router = createBrowserRouter(
   createRoutesFromElements(
