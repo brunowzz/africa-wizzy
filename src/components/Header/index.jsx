@@ -4,6 +4,7 @@ import Logo from '../../assets/logo.svg';
 import InfoContact from '../InfoContact';
 
 import * as S from './style';
+import SocialMedia from '../SocialMedia';
 
 export default function Header() {
   const { pathname } = useLocation();
@@ -12,6 +13,7 @@ export default function Header() {
     <S.ContainerHeader>
       <S.ContainerSocialLinks>
         <InfoContact />
+        <SocialMedia />
       </S.ContainerSocialLinks>
 
       <S.ContainerNavigationLinks>
