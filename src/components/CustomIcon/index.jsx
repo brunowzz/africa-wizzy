@@ -1,6 +1,6 @@
 import { IconContext } from 'react-icons';
 
-import { IoMdCall, IoMdMail } from 'react-icons/io';
+import { IoMdCall, IoMdMail, IoMdSend } from 'react-icons/io';
 import {
   FaFacebookF,
   FaXTwitter,
@@ -15,6 +15,7 @@ export default function CustomIcon({ icon, color, size }) {
   const iconMapping = {
     call: IoMdCall,
     mail: IoMdMail,
+    send: IoMdSend,
     facebook: FaFacebookF,
     twitter: FaXTwitter,
     linkedin: FaLinkedinIn,
