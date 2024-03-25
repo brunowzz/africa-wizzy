@@ -2,49 +2,47 @@ import styled from "styled-components";
 
 export const Footer = styled.footer`
     display: flex;
-    flex-direction:column;
-    align-items:center;
-    gap:2.5rem;
-    padding:2rem 6.25rem 1rem 6.25rem;
-    background-color:#304F47;
-    
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 2rem 6.25rem 1rem 6.25rem;
+    background-color: #304F47;
 `;
 
 export const Container = styled.section`
-    display:flex;
-    gap:8.75rem;
-    
+    display: flex;
+    gap: 8.75rem;
 `;
 
 export const Section = styled.section`
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:1.25rem;
-    width:30.5rem;
+    width: 30.5rem;
+    gap: 1.25rem;
 `;
 
 export const Title = styled.h1`
-    color:#FFF;
     font-size: 2.4rem;
-    font-weight:700;
-    line-height:3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    color: #FFF;
 `;
 
 export const Text = styled.div`
-    width:24.75rem;
-    color:#FFF;
+    width: 24.75rem;
     font-size: 1.25rem;
-    font-weight:300;
-    line-height:1.6rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+    color: #FFF;
 `;
 
 export const List = styled.ul`
-    display:flex;
-    flex-direction:column;
-    gap:0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
     list-style-type: none;
 
-    li a{
+    li a {
         color: #fff;
         text-decoration: underline;
     }
@@ -56,62 +54,71 @@ export const Logo = styled.img`
 `;
 
 export const Section2 = styled.section`
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:1.625rem;
-    width:30.5rem;
-    color:#FFF;
+    width: 30.5rem;
+    gap: 1.625rem;
+    color: #FFF;
 `;
 
 export const TextEmail = styled.p`
-    font-size:1rem;
-    font-weight:300;
-    line-height:1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 300;
 `;
 
 export const Label = styled.label`
-    font-size:1.25rem;
-    font-weight:700;
-    line-height:1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700;
 `;
 
-export const InputArea = styled.div`
-    display:flex;
-    align-items:center;
-    gap:1rem;
+export const FormEmail = styled.form`
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 
-    div{
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        width:3.4375rem;
-        height:3.5625rem;
-        background-color:#C7923E;
+    button {
+        all: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3.4375rem;
+        height: 3.5625rem;
+        background-color: #C7923E;
         font-size: 1.25rem;
-        border-radius:0.5rem;
-        cursor:pointer;
+        border-radius: 0.5rem;
+        cursor: pointer;
         transition: all 0.2s ease-in-out;
 
         &:hover {
             opacity: 0.8;
         }
+
+        &:active {
+            transform: scale(0.95);
+        }
     }
 `;
 
 export const Input = styled.input`
-    width:20.75rem;
-    height:3.5625rem;
-    padding:1.12rem;
-    font-size:1rem;
-    background-color:#FFF;
-    border-radius:8px;
-    border:none;
+    width: 20.75rem;
+    height: 3.5625rem;
+    padding: 1.12rem;
+    font-size: 1rem;
+    background-color: #EFF2EF;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    
+    &:focus {
+        background-color: #FFF;
+    }
 `;
 
 export const Copyright = styled.p`
-    color:#FFF;
-    font-weight:100;
-    font-size:1rem;
-    line-height:1.25rem;
-    
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 100;
+    color: #FFF;
 `;
