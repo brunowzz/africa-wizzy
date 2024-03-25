@@ -1,13 +1,11 @@
 import Logo from '../../assets/logo.svg';
 import CustomIcon from '../CustomIcon';
 
-
 import * as S from './style'
 
 export default function Footer() {
 
   return (
-
     <S.Footer>
       <S.Container>
         <S.Section>
@@ -37,6 +35,5 @@ export default function Footer() {
 
       <S.Copyright>Copyright Africa Wizzy Safari 2022</S.Copyright>
     </S.Footer>
-
   );
 }

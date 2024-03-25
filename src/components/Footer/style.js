@@ -11,7 +11,9 @@ export const Footer = styled.footer`
 
 export const Container = styled.section`
     display: flex;
+    justify-content: space-between;
     gap: 8.75rem;
+    width:100%;
 `;
 
 export const Section = styled.section`
