@@ -2,7 +2,7 @@ import * as S from './style'
 
 import CustomIcon from '../CustomIcon'
 
-export default function SocialMedia (custom){
+export default function SocialMedia ({custom}){
     return(
         <S.ContainerSocialMedia custom={custom}>
             <S.ButtonSocialMedia custom={custom} >

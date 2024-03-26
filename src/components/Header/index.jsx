@@ -13,7 +13,7 @@ export default function Header() {
     <S.ContainerHeader>
       <S.ContainerSocialLinks>
         <InfoContact />
-        <SocialMedia />
+        <SocialMedia custom/>
       </S.ContainerSocialLinks>
 
       <S.ContainerNavigationLinks>
@@ -22,6 +22,7 @@ export default function Header() {
             <S.Img src={Logo} alt="logo" />
           </Link>
         </figure>
+      
 
         <S.NavigationLinks>
           <Link className={pathname === '/' ? 'isHere' : ''} to="/">
