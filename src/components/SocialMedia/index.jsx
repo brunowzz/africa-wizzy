@@ -9,13 +9,13 @@ export default function SocialMedia (variant, custom){
                 <CustomIcon icon={'facebook'} size={custom ? 10 : 22} color={custom ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia >
             <S.ButtonSocialMedia variant={variant}>
-                <CustomIcon icon={'twitter'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
+                <CustomIcon icon={'twitter'} size={custom ? 10 : 22} color={custom ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
             <S.ButtonSocialMedia variant={variant}>
-                <CustomIcon icon={'linkedin'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
+                <CustomIcon icon={'linkedin'} size={custom ? 10 : 22} color={custom ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
             <S.ButtonSocialMedia variant={variant}>
-                <CustomIcon icon={'instagram'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
+                <CustomIcon icon={'instagram'} size={custom ? 10 : 22} color={custom ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
         </S.ContainerSocialMedia>
     )
