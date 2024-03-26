@@ -2,20 +2,20 @@ import * as S from './style'
 
 import CustomIcon from '../CustomIcon'
 
-export default function SocialMedia (dark, arc, size){
+export default function SocialMedia (variant, custom){
     return(
-        <S.ContainerSocialMedia>
-            <S.ButtonSocialMedia arc={arc}>
-            <CustomIcon icon={'facebook'} size={size ? 24 : 15} color={dark ? '#fff' : '#304F47'} />
+        <S.ContainerSocialMedia variant={variant}>
+            <S.ButtonSocialMedia variant={variant} >
+                <CustomIcon icon={'facebook'} size={custom ? 10 : 22} color={custom ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia >
-            <S.ButtonSocialMedia arc={arc}>
-            <CustomIcon icon={'twitter'} size={size ? 24 : 15} color={dark ? '#fff' : '#304F47'}/>
+            <S.ButtonSocialMedia variant={variant}>
+                <CustomIcon icon={'twitter'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
-            <S.ButtonSocialMedia arc={arc}>
-            <CustomIcon icon={'linkedin'} size={size ? 24 : 15} color={dark ? '#fff' : '#304F47'}/>
+            <S.ButtonSocialMedia  variant={variant}>
+                <CustomIcon icon={'linkedin'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
-            <S.ButtonSocialMedia arc={arc}>
-            <CustomIcon icon={'instagram'} size={size ? 24 : 15} color={dark ? '#fff' : '#304F47'}/>
+            <S.ButtonSocialMedia variant={variant}>
+                <CustomIcon icon={'instagram'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
         </S.ContainerSocialMedia>
     )
