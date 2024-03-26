@@ -11,7 +11,7 @@ export default function SocialMedia (variant, custom){
             <S.ButtonSocialMedia variant={variant}>
                 <CustomIcon icon={'twitter'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
-            <S.ButtonSocialMedia  variant={variant}>
+            <S.ButtonSocialMedia variant={variant}>
                 <CustomIcon icon={'linkedin'} size={variant ? 10 : 22} color={variant ? '#fff' : '#304F47'} />
             </S.ButtonSocialMedia>
             <S.ButtonSocialMedia variant={variant}>
