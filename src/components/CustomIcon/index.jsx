@@ -1,15 +1,16 @@
 import { IconContext } from 'react-icons';
 
+
 import { IoMdCall, IoMdMail, IoMdSend } from 'react-icons/io';
 import {
   FaFacebookF,
   FaXTwitter,
-  FaInstagram,
-  FaCalendarCheck
+  FaInstagram
 } from 'react-icons/fa6';
-import { FaLinkedinIn, FaCarAlt, FaRegCheckCircle } from 'react-icons/fa';
-import { AiFillLike } from 'react-icons/ai';
+import { FaLinkedinIn, FaRegCheckCircle } from 'react-icons/fa';
+import { AiOutlineCar, AiOutlineContacts } from 'react-icons/ai';
 import { MdArrowRight } from 'react-icons/md';
+import { BiLike } from "react-icons/bi";
 
 export default function CustomIcon({ icon, color, size }) {
   const iconMapping = {
@@ -20,10 +21,10 @@ export default function CustomIcon({ icon, color, size }) {
     twitter: FaXTwitter,
     linkedin: FaLinkedinIn,
     instagram: FaInstagram,
-    car: FaCarAlt,
+    car: AiOutlineCar,
     check: FaRegCheckCircle,
-    calendar: FaCalendarCheck,
-    like: AiFillLike,
+    calendar: AiOutlineContacts,
+    like: BiLike,
     arrowRight: MdArrowRight
   };
 
