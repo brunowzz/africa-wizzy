@@ -4,7 +4,7 @@ import AkageraPark from '../assets/akagera-park-image.svg'
 import BisokeImage from '../assets/bisoke-image.svg'
 import LakeKivu from '../assets/lake-kivu-image.svg'
 
-export const mockTravel = [
+export const MockDestinations = [
     {
         id: uuid(),
         img: `${AkageraPark}`,

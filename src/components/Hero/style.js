@@ -1,4 +1,4 @@
-import HeroBackground from '../../assets/hero.svg';
+import HeroBackground from '../../assets/hero-background.svg';
 
 import styled from 'styled-components';
 

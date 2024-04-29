@@ -1,31 +1,38 @@
 import Subtitle from '../../components/Subtitle/index.jsx';
-import RowCard from './components/RowCard/index.jsx';
+import Hero from '../../components/Hero/index.jsx';
+import RowDestinationCard from '../../components/RowDestinationCard/index.jsx';
 
 import * as S from './style.js';
 
-export default function TourPackage({ inHome }) {
+export default function TourPackage({inHome = false}) {
+
   return (
-    <S.ContainerTourPackage>
-      <Subtitle
-        subtitle="Choose your Package"
-        instructionSubtitle="Select your Best Package for your Travel"
-      />
+    <>
+      {inHome === false && (
+        <Hero />
+      )}
 
-      <S.ContainerCard>
-        {inHome ? (
-          <>
-            <RowCard />
-            <RowCard />
-          </>
-        ) : (
-          <>
-            <RowCard />
-            <RowCard />
-            <RowCard />
-          </>
-        )}
+      <S.ContainerTourPackage>
+        <Subtitle
+          subtitle="Choose your Package"
+          instructionSubtitle="Select your Best Package for your Travel"
+        />
 
-      </S.ContainerCard>
-    </S.ContainerTourPackage>
+        <S.ContainerCards>
+          {inHome ? (
+            <>
+              <RowDestinationCard />
+              <RowDestinationCard />
+            </>
+          ) : (
+            <>
+              <RowDestinationCard />
+              <RowDestinationCard />
+              <RowDestinationCard />
+            </>
+          )}
+        </S.ContainerCards>
+      </S.ContainerTourPackage>
+    </>
   );
 }

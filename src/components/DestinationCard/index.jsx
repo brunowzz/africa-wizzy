@@ -2,7 +2,7 @@ import * as S from './style.js';
 
 import PropTypes from 'prop-types';
 
-export default function Card({ image, title, text }) {
+export default function DestinationCard({ image, title, text }) {
     return (
         <>
             <S.Card>
@@ -17,7 +17,7 @@ export default function Card({ image, title, text }) {
     );
 }
 
-Card.propTypes = {
+DestinationCard.propTypes = {
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired
